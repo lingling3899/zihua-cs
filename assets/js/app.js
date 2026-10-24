@@ -92,6 +92,19 @@
     return p.image || "";
   }
 
+
+  function manningsStockGuestLine(p) {
+    if (!p || typeof p.manningsInStockStores !== "number" || !p.manningsInStockStores) return "";
+    var asOf = p.manningsInStockAsOf || "";
+    return (
+      "萬寧約 " +
+      p.manningsInStockStores +
+      " 間店舖有貨（" +
+      (asOf ? asOf + " 查詢；" : "") +
+      "非全線；以當日萬寧網頁為準）"
+    );
+  }
+
   function channelBadgeHtml(p, compact) {
     /* 對客產品卡唔標邊間舖（屈臣氏／其他／寄賣）——導去「門店」 */
     return "";
@@ -546,6 +559,11 @@
       (p.disclaimer
         ? '<p class="pc-meta" style="margin-top:6px">' + escapeHtml(forGuest(p.disclaimer)) + "</p>"
         : "") +
+      (manningsStockGuestLine(p)
+        ? '<p class="pc-meta mannings-stock-line" style="margin-top:6px"><strong>' +
+          escapeHtml(manningsStockGuestLine(p)) +
+          "</strong></p>"
+        : "") +
       (links ? '<p class="pc-meta" style="margin-top:6px">' + links + "</p>" : "") +
       "</div></div>";
 
@@ -660,6 +678,9 @@
         '<span class="pcat-name">' + escapeHtml(p.nameZh) + "</span>" +
         (p.filterGroup
           ? '<span class="pcat-badge neutral">' + escapeHtml(p.filterGroup) + "</span>"
+          : "") +
+        (manningsStockGuestLine(p)
+          ? '<span class="pcat-stock">' + escapeHtml("萬寧約 " + p.manningsInStockStores + " 間有貨") + "</span>"
           : "") +
         "</button>"
       );
@@ -1055,6 +1076,10 @@
       nl2br(forGuest(f.answer));
 
     if (faqId === "where") {
+      var stockLine = manningsStockGuestLine(p);
+      if (stockLine && html.indexOf("萬寧約") === -1) {
+        html += "<br><br><strong>" + escapeHtml(stockLine) + "</strong>";
+      }
       html +=
         '<div class="meta">' +
         '<button type="button" class="chip" id="answerGoStores">去「門店」睇電話簿 →</button>' +
@@ -1401,10 +1426,12 @@
     var ul = $("#salesPointsList");
     if (!ul) return;
     var items = [
-      "經典油 6／12／26ml：萬寧（12／26）、百佳（6／12）、惠康（26）、莎莎（12）、松本清（12／26）；12ml 多數渠道（含 Soda Mall／先施／卡萊美等）；屈臣氏有 12／26 公開頁——部分店有售／非全線",
-      "防蚊噴 85ml：屈臣氏、先施、Citistore、松本清（部分店有售／非全線）",
-      "花香味 10ml（白木／淡花／玫瑰）：先施、AEON；玫瑰另見屈臣氏公開頁——部分店有售／非全線",
-      "電話簿見下方（屈臣氏／萬寧）≠ 庫存"
+      "經典油 12ml：萬寧約 247 間店舖有貨（2026-10-24 查詢；非全線；以當日萬寧網頁為準）",
+      "經典油 26ml：萬寧約 100 間店舖有貨（2026-10-24 查詢；非全線；以當日萬寧網頁為準）",
+      "經典油其他渠道／6ml：部分店有售／非全線——可去下方電話簿致電確認（電話簿間數 ≠ 有貨舖數）",
+      "防蚊噴 85ml：部分店有售／非全線（暫無核實萬寧有貨舖數；請用萬寧／門市查詢庫存）",
+      "花香味 10ml：部分店有售／非全線——請致電確認",
+      "下方電話簿：萬寧／屈臣氏分店電話（電話簿 ≠ 有貨舖數）"
     ];
     ul.innerHTML = items.map(function (t) { return "<li>" + escapeHtml(t) + "</li>"; }).join("");
   }
