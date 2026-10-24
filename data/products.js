@@ -484,12 +484,13 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "使用前先搖勻。將噴霧距離皮膚或衣物約 10–15 厘米，平均噴射。每隔 3–4 小時噴 1 次。詳情以包裝為準。",
     cautions: "外用。避免眼睛及黏膜。幼兒及成人使用請跟包裝標籤；如有疑問請諮詢醫生／藥劑師。唔好直接噴寵物。",
-    whereToBuy: "部分店有售／非全線。可去「門店」睇電話簿（電話簿 ≠ 庫存）；請致電門市確認有冇貨。",
+    whereToBuy: "萬寧約 77 間店舖有貨（2026-10-24 查詢；非全線；以當日萬寧網頁為準）。部分店有售／非全線。可去「門店」睇電話簿（電話簿間數 ≠ 有貨舖數）；請致電確認。",
     priceNote: "公開參考（2026-10）：驅蚊舒緩噴霧 85ml 約 HK$46.50（RRP 約 $62）。以當日價簽／實物包裝為準。",
     officialUrl: "https://www.crazyone.hk/projects/zihau/product4.php",
     watsonsUrl: "https://www.watsons.com.hk/zh-hk/all-brands/list/126009/zihua",
+    manningsUrl: "https://www.mannings.com.hk/zh-hant/zihua-mosquito-repellent-soothing-spray-85ml/p/690917",
     disclaimer: "驅蚊／舒緩外用；唔保證預防登革熱等疾病。請持續採取防蚊措施。",
-    staffNotes: "前線規格：紫花防蚊噴 85ml。\n【用戶提供渠道表 2026-10-24】屈臣氏、Sincere、Citistore、松本清。唔報舖數／庫存。\n公開成份方向：Citrepel®75（PMD）、不添加 DEET／樟腦。品牌舊頁或寫 50ml——對客以 85ml 實物標籤為準。唔好講撃退登革熱。\n對客唔報邊間舖——導去門店電話簿；渠道表只職員見。",
+    staffNotes: "前線規格：紫花防蚊噴 85ml。\n【用戶提供渠道表 2026-10-24】萬寧、屈臣氏、Sincere、Citistore、松本清。對客產品卡唔標舖名——導去門店。\n門店電話簿間數（公開目錄）：萬寧約 309 間、屈臣氏約 288 間——係電話簿大小，唔係該 SKU 有貨舖數。\n【萬寧門市有貨快照 2026-10-24 ~20:07 HKT｜詳細地區只職員見；對客只顯示總間數】SKU 690917 紫花防蚊噴霧 85ml：全港顯示約 77 間（68 有現貨 + 9 庫存緊張）；地區：港島 17／九龍 25／新界 35／澳門 0。萬寧介面唔顯示冇貨舖；非全線。來源：mannings.com.hk 查詢門店庫存（全港、無分區篩）。\n公開成份方向：Citrepel®75（PMD）、不添加 DEET／樟腦。品牌舊頁或寫 50ml——對客以 85ml 實物標籤為準。唔好講撃退登革熱。",
     faqs: [
       {
         id: "about",
@@ -531,13 +532,15 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "部分店有售／非全線。可去「門店」睇電話簿同地址；電話簿 ≠ 庫存，唔代表一定有貨——請致電確認。"
+        answer: "萬寧約 77 間店舖有貨（2026-10-24 查詢；非全線；以當日萬寧網頁為準）。部分店有售／非全線。可去「門店」睇電話簿；電話簿 ≠ 有貨舖數——請致電確認。"
       }
     ],
     consignment: false,
     watsonsShelf: true,
     registration: null,
     volume: "85ml",
+    manningsInStockStores: 77,
+    manningsInStockAsOf: "2026-10-24",
     image: "assets/img/products/spray.png"
   }
 ];
