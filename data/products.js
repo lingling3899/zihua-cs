@@ -8,7 +8,7 @@ window.ZIHUA_PRODUCTS = [
     nameZh: "紫花油（經典藥油）",
     nameEn: "ZIHUA Embrocation",
     category: "花香藥油",
-    form: "搽劑／藥油",
+    form: "搽劑／藥油（6／12／26ml）",
     emoji: "🧴",
     filterGroup: "藥油",
     keyIngredients: ["薄荷腦", "桉油／桉葉油", "水楊酸甲酯（冬青油）"],
@@ -19,18 +19,18 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "將 2–3 滴點於患處，輕輕按摩；或點在鼻孔前，深呼吸數次。用於舒緩頭痛可按壓前額／兩側及頸背；傷風鼻塞可於鼻孔附近位置再深呼吸；亦可於胸前塗上並打圈按摩後慢慢深呼吸（跟屈臣氏／官網公開用法）。可重複至揮發。每日次數請跟包裝標籤。",
     cautions: "只供外用。使用時避免觸及眼睛及黏膜。兒童使用前應諮詢中醫師或醫生意見。勿讓兒童自取。置於陰涼乾燥處，避免陽光直射。皮膚敏感或不適請停用並諮詢醫生／藥劑師。詳情請參考盒內說明書。",
-    whereToBuy: "銷售點（部分店有售、非全線）：屈臣氏、萬寧、各大藥房／藥妝、品牌公開網店。請致電門市確認有冇貨。",
+    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 6ml：百佳\n• 12ml：萬寧、百佳、莎莎、松本清；多數渠道亦有（含 Soda Mall、先施 Sincere、卡萊美 Colourmix 等）\n• 26ml：萬寧、惠康、松本清\n• 屈臣氏：有 12ml／26ml 等公開頁（請致電確認）\n請致電門市確認有冇貨。",
     priceNote: "屈臣氏公開參考（2026-10）：12ml 約 HK$29.50；26ml 約 HK$49.90。以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product1.php",
     watsonsUrl: "https://www.watsons.com.hk/zh-hk/%E8%8F%AF%E6%98%9F-%E7%B4%AB%E8%8A%B1%E6%B2%B9-12%E6%AF%AB%E5%8D%87/p/BP_224025",
     disclaimer: "註冊中成藥（搽劑）。參考用途，非醫療建議；唔講醫好／撃退／治療疾病。",
-    staffNotes: "中成藥註冊編號 HKC-16478；註冊持有人：香港紫花油大藥廠有限公司。規格：3／6／12／26ml。\n主要成份公開：薄荷腦、桉油、水楊酸甲酯（冬青油）。\n來源：crazyone 品牌頁、tcmhongkong 公開註冊、屈臣氏 PDP（華星／紫花油）。\nG6PD：公開頁未寫「蠶豆症適用」；亦未列樟腦為成份。含水楊酸甲酯——對水楊酸過敏者使用前諮詢醫生（屈臣氏公開提示方向）。請以包裝為準。\n孕婦／嬰兒：部分屈臣氏公開頁提示嬰兒及孕婦不宜——請跟標籤並問藥劑師。",
+    staffNotes: "中成藥註冊編號 HKC-16478。前線規格：6／12／26ml（公開註冊另有 3ml；渠道表以用戶為準）。\n【用戶提供渠道表 2026-10-24】萬寧 12／26；百佳 6／12；惠康 26；莎莎 12；松本清 12／26；12ml 大部份地方都有（含 Soda Mall、Sincere、Colourmix）。唔報舖數／庫存。\n來源另見：crazyone、屈臣氏 PDP。G6PD／孕婦：跟標籤問藥劑師。",
     faqs: [
       {
         id: "about",
         icon: "ℹ️",
         label: "呢款係咩／有咩特點",
-        answer: "紫花油係香港註冊中成藥搽劑（HKC-16478），花香藥油方向。公開說明提到薰衣草精油配方，清新；主治方向包括頭暈頭痛、傷風鼻塞、舟車暈浪、痾嘔肚痛、蚊叮蟲咬。只供外用。規格有 3／6／12／26 毫升。"
+        answer: "紫花油係香港註冊中成藥搽劑（HKC-16478），花香藥油方向。公開說明提到薰衣草精油配方，清新；主治方向包括頭暈頭痛、傷風鼻塞、舟車暈浪、痾嘔肚痛、蚊叮蟲咬。只供外用。常用規格：6／12／26 毫升。"
       },
       {
         id: "ingredients",
@@ -60,13 +60,13 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：\n• 屈臣氏（有 12ml／26ml 等公開頁）\n• 萬寧／各大藥房藥妝（部分店）\n• 品牌公開網店\n\n電話簿唔代表一定有貨——請致電確認。"
+        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 6ml：百佳\n• 12ml：萬寧、百佳、莎莎、松本清；多數渠道亦有（含 Soda Mall、先施、卡萊美等）\n• 26ml：萬寧、惠康、松本清\n• 屈臣氏：有 12ml／26ml 等公開頁\n\n請致電門市確認有冇貨。"
       }
     ],
     consignment: false,
     watsonsShelf: true,
     registration: "HKC-16478",
-    volume: "3／6／12／26ml",
+    volume: "6／12／26ml",
     image: "assets/img/products/oil-classic.jpg"
   },
   {
@@ -137,7 +137,7 @@ window.ZIHUA_PRODUCTS = [
   },
   {
     id: "floral-woodbois",
-    nameZh: "馥郁白木紫花油",
+    nameZh: "馥郁白木紫花油（白木）",
     nameEn: "woodbois ZIHUA Embrocation",
     category: "花香味藥油",
     form: "走珠藥油 10ml",
@@ -151,17 +151,17 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "需要時每次搽適量於患處，每日 3–4 次。兒童使用前應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢醫生。皮膚敏感或不適請停用。詳情以包裝為準。",
-    whereToBuy: "銷售點（部分店有售、非全線）：品牌公開渠道、部分藥房／藥妝。請致電確認。",
+    whereToBuy: "銷售點（部分店有售、非全線）：花香味系列（白木／淡花／玫瑰）見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。",
     priceNote: "以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product2.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
-    staffNotes: "註冊編號 HKC-18131。系列另外：淡花甜香 HKC-18132、芳香紅薇 HKC-18133。規格各 10ml。\n來源：crazyone product2。成份拆解同經典油方向（薄荷腦、桉油、冬青油）。",
+    staffNotes: "註冊編號 HKC-18131（白木）。系列：淡花 HKC-18132、玫瑰／紅薇 HKC-18133。規格各 10ml。\n用戶口語：白木／淡花／玫瑰花香味。\n【用戶提供渠道表 2026-10-24】有列花香味 3 款存在；未逐渠道列花香味——對客請致電確認。來源：crazyone product2。",
     faqs: [
       {
         id: "about",
         icon: "ℹ️",
         label: "呢款係咩／有咩特點",
-        answer: "馥郁白木紫花油係花香味藥油系列之一（HKC-18131），10 毫升走珠裝，方便隨身。公開主治方向同經典紫花油：頭暈頭痛、傷風鼻塞、舟車暈浪、痾嘔肚痛、蚊叮蟲咬。只供外用。"
+        answer: "馥郁白木紫花油（白木）係花香味藥油系列之一（HKC-18131），10 毫升走珠裝，方便隨身。公開主治方向同經典紫花油。只供外用。"
       },
       {
         id: "ingredients",
@@ -191,7 +191,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：品牌公開渠道、部分藥房／藥妝。請致電確認有冇貨。"
+        answer: "銷售點（部分店有售、非全線）：花香味系列見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。"
       }
     ],
     consignment: false,
@@ -202,7 +202,7 @@ window.ZIHUA_PRODUCTS = [
   },
   {
     id: "floral-nerolic",
-    nameZh: "淡花甜香紫花油",
+    nameZh: "淡花甜香紫花油（淡花）",
     nameEn: "nerolic ZIHUA Embrocation",
     category: "花香味藥油",
     form: "走珠藥油 10ml",
@@ -216,17 +216,17 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "需要時每次搽適量於患處，每日 3–4 次。兒童使用前應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢醫生。皮膚敏感或不適請停用。詳情以包裝為準。",
-    whereToBuy: "銷售點（部分店有售、非全線）：品牌公開渠道、部分藥房／藥妝。請致電確認。",
+    whereToBuy: "銷售點（部分店有售、非全線）：花香味系列（白木／淡花／玫瑰）見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。",
     priceNote: "以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product2.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
-    staffNotes: "註冊編號 HKC-18132。來源：crazyone product2。",
+    staffNotes: "註冊編號 HKC-18132（淡花／淡花甜香）。\n【用戶提供渠道表 2026-10-24】花香味 3 款之一；未逐渠道列——請致電確認。來源：crazyone product2。",
     faqs: [
       {
         id: "about",
         icon: "ℹ️",
         label: "呢款係咩／有咩特點",
-        answer: "淡花甜香紫花油係花香味藥油系列之一（HKC-18132），10 毫升走珠裝。公開主治方向同系列其他款。只供外用。"
+        answer: "淡花甜香紫花油（淡花）係花香味藥油系列之一（HKC-18132），10 毫升走珠裝。公開主治方向同系列其他款。只供外用。"
       },
       {
         id: "ingredients",
@@ -256,7 +256,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：品牌公開渠道、部分藥房／藥妝。請致電確認。"
+        answer: "銷售點（部分店有售、非全線）：花香味系列見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。"
       }
     ],
     consignment: false,
@@ -267,7 +267,7 @@ window.ZIHUA_PRODUCTS = [
   },
   {
     id: "floral-rosibloom",
-    nameZh: "芳香紅薇紫花油",
+    nameZh: "芳香紅薇紫花油（玫瑰花香）",
     nameEn: "rosibloom ZIHUA Embrocation",
     category: "花香味藥油",
     form: "走珠藥油 10ml",
@@ -281,17 +281,17 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "需要時每次搽適量於患處，每日 3–4 次。兒童使用前應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢醫生。皮膚敏感或不適請停用。詳情以包裝為準。",
-    whereToBuy: "銷售點（部分店有售、非全線）：品牌公開渠道、部分藥房／藥妝。請致電確認。",
+    whereToBuy: "銷售點（部分店有售、非全線）：花香味系列（白木／淡花／玫瑰）見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。",
     priceNote: "以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product2.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
-    staffNotes: "註冊編號 HKC-18133。來源：crazyone product2。",
+    staffNotes: "註冊編號 HKC-18133（玫瑰花香／芳香紅薇）。\n【用戶提供渠道表 2026-10-24】花香味 3 款之一；未逐渠道列——請致電確認。來源：crazyone product2。",
     faqs: [
       {
         id: "about",
         icon: "ℹ️",
         label: "呢款係咩／有咩特點",
-        answer: "芳香紅薇紫花油係花香味藥油系列之一（HKC-18133），10 毫升走珠裝。公開主治方向同系列其他款。只供外用。"
+        answer: "芳香紅薇紫花油（玫瑰花香）係花香味藥油系列之一（HKC-18133），10 毫升走珠裝。公開主治方向同系列其他款。只供外用。"
       },
       {
         id: "ingredients",
@@ -321,7 +321,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：品牌公開渠道、部分藥房／藥妝。請致電確認。"
+        answer: "銷售點（部分店有售、非全線）：花香味系列見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。"
       }
     ],
     consignment: false,
@@ -398,7 +398,7 @@ window.ZIHUA_PRODUCTS = [
   },
   {
     id: "spray-lavender",
-    nameZh: "紫花油薰衣草精油舒緩噴霧",
+    nameZh: "紫花防蚊噴霧（85ml）",
     nameEn: "ZIHUA Lavender Soothing Spray",
     category: "驅蚊舒緩噴霧",
     form: "噴霧",
@@ -412,18 +412,18 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "使用前先搖勻。將噴霧距離皮膚或衣物約 10–15 厘米，平均噴射。每隔 3–4 小時噴 1 次。詳情以包裝為準。",
     cautions: "外用。避免眼睛及黏膜。幼兒及成人使用請跟包裝標籤；如有疑問請諮詢醫生／藥劑師。唔好直接噴寵物。",
-    whereToBuy: "銷售點（部分店有售、非全線）：屈臣氏（品牌頁有「驅蚊舒緩噴霧」公開列出）、品牌公開渠道。請致電確認。",
-    priceNote: "屈臣氏公開參考（2026-10）：驅蚊舒緩噴霧 85ml 約 HK$46.50（RRP 約 $62）。品牌頁另有 50ml 規格說明——以實物包裝為準。",
+    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：屈臣氏、先施（Sincere）、Citistore、松本清。請致電門市確認有冇貨。",
+    priceNote: "屈臣氏公開參考（2026-10）：驅蚊舒緩噴霧 85ml 約 HK$46.50（RRP 約 $62）。以當日價簽／實物包裝為準。",
     officialUrl: "https://www.crazyone.hk/projects/zihau/product4.php",
     watsonsUrl: "https://www.watsons.com.hk/zh-hk/all-brands/list/126009/zihua",
     disclaimer: "驅蚊／舒緩外用；唔保證預防登革熱等疾病。請持續採取防蚊措施。",
-    staffNotes: "品牌頁規格寫 50ml；屈臣氏品牌頁列出 85ml 驅蚊舒緩噴霧——可能係不同裝量／改版，對客以實物標籤為準。\n公開：不添加 DEET 和樟腦。G6PD：無樟腦有助一般參考，但仍未見「蠶豆症適用」認證字句——請問藥劑師。\n唔好講「撃退登革熱／醫好叮咬」。",
+    staffNotes: "前線規格：紫花防蚊噴 85ml。\n【用戶提供渠道表 2026-10-24】屈臣氏、Sincere、Citistore、松本清。唔報舖數／庫存。\n公開成份方向：Citrepel®75（PMD）、不添加 DEET／樟腦。品牌舊頁或寫 50ml——對客以 85ml 實物標籤為準。唔好講撃退登革熱。",
     faqs: [
       {
         id: "about",
         icon: "ℹ️",
         label: "呢款係咩／有咩特點",
-        answer: "紫花油薰衣草精油舒緩噴霧。公開說明採用 Citrepel®75（含 PMD），配合蛇床子乙醇提取液及薰衣草油；方向係外出前防叮、叮後舒癢。公開稱不添加 DEET 和樟腦。請跟包裝使用。"
+        answer: "紫花防蚊噴霧 85 毫升。公開說明採用 Citrepel®75（含 PMD），配合蛇床子乙醇提取液及薰衣草油；方向係外出前防叮、叮後舒癢。公開稱不添加 DEET 和樟腦。請跟包裝使用。"
       },
       {
         id: "ingredients",
@@ -459,13 +459,13 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：\n• 屈臣氏（ZIHUA 品牌頁有列出驅蚊舒緩噴霧）\n• 品牌公開渠道\n\n請致電確認有冇貨。"
+        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 屈臣氏\n• 先施（Sincere）\n• Citistore\n• 松本清\n\n請致電門市確認有冇貨。"
       }
     ],
     consignment: false,
     watsonsShelf: true,
     registration: null,
-    volume: "50ml（品牌頁）／屈臣氏另見 85ml",
+    volume: "85ml",
     image: "assets/img/products/spray.png"
   }
 ];

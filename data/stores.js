@@ -7,7 +7,7 @@ window.ZIHUA_STORES = {
   manningsLocator: "https://www.mannings.com.hk/store-finder",
   officialSite: "https://www.hkzihua.com/",
   brandInfo: "https://crazyone.hk/projects/zihau/",
-  salesPointsNote: "主要銷售點（部分店有售、非全線）：屈臣氏、萬寧、各大藥房／藥妝、品牌公開網店。電話簿非該產品一定有貨——請致電確認。",
+  salesPointsNote: "渠道跟用戶提供表（2026-10-24）：經典油按容量（萬寧／百佳／惠康／莎莎／松本清等）；防蚊噴 85ml 見屈臣氏／先施／Citistore／松本清。部分店有售／非全線。電話簿 ≠ 庫存——請致電確認。",
   mannings: [  // 309 stores — phone book only
     { id: "m-4e6badd968", name: "萬寧 · 恒隆中心", district: "灣仔區", address: "香港銅鑼灣百德新街2-20號恒隆中心地下G02號舖", tel: "25681407" },
     { id: "m-79fe05ddb5", name: "萬寧 · 置地廣場", district: "中西區", address: "香港中環皇后大道中15號置地廣場中庭3樓312號舖", tel: "34602024" },
