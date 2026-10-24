@@ -1246,7 +1246,7 @@
       }
       return true;
     });
-    /* 推廣員篩選／寄賣貨鎖定時，電話簿重複紀錄按店碼去重（唔報舖數） */
+    /* 推廣員篩選／寄賣貨鎖定時，電話簿重複紀錄按店碼去重 */
     if (promoterOnly) {
       var seen = {};
       list = list.filter(function (s) {
@@ -1267,11 +1267,14 @@
     var note = $("#directoryNote");
     if (note) {
       var label = storeChannelLabel();
+      var bookN = activeStoreList().length;
       note.textContent =
         (storeData.salesPointsNote || "電話簿非該產品一定有貨——請致電確認。") +
         " 而家顯示 " +
         label +
-        " 電話簿。部分店有售／非全線——唔報舖數／庫存；請致電確認有冇貨。";
+        " 電話簿：約 " +
+        bookN +
+        " 間（電話簿間數，唔係存貨／庫存）。部分店有售／非全線——請致電確認有冇貨。";
     }
 
     var base = activeStoreList();
@@ -1311,11 +1314,12 @@
     var list = filteredStores();
     var count = $("#storeCount");
     if (count) {
-      var bits = [storeChannelLabel() + "電話簿"];
+      var bits = [
+        "電話簿：" + storeChannelLabel() + "約 " + list.length + " 間"
+      ];
       if (state.storePromoterOnly && state.storeChannel === "watsons") bits.push("推廣員篩選");
       if (state.storeRegion) bits.push(REGION_LABEL[state.storeRegion] || state.storeRegion);
-      bits.push("電話簿 ≠ 庫存");
-      bits.push("唔報舖數");
+      bits.push("電話簿間數 ≠ 存貨／庫存");
       count.textContent = bits.join("｜");
     }
 
