@@ -1,14 +1,14 @@
 /** 紫花油 ZIHUA 客服 — 產品資料（公開文案給顧客；staff* 欄位僅職員登入可見）
- *  來源：公開官網／品牌頁（hkzihua.com、crazyone.hk/projects/zihau）、屈臣氏公開 PDP、中成藥註冊公開資料。
+ *  來源：公開官網／品牌頁（hkzihua.com、crazyone.hk/projects/zihau）、萬寧／屈臣氏公開 PDP、中成藥註冊公開資料。
  *  聲稱跟標籤／官網；唔發明療效保證。最終以實物包裝為準。
  */
 window.ZIHUA_PRODUCTS = [
   {
-    id: "oil-classic",
-    nameZh: "紫花油（經典藥油）",
-    nameEn: "ZIHUA Embrocation",
+    id: "oil-classic-12",
+    nameZh: "紫花油 12ml",
+    nameEn: "ZIHUA Embrocation 12ml",
     category: "花香藥油",
-    form: "搽劑／藥油（6／12／26ml）",
+    form: "搽劑／藥油（12ml）",
     emoji: "🧴",
     filterGroup: "藥油",
     keyIngredients: ["薄荷腦", "桉油／桉葉油", "水楊酸甲酯（冬青油）"],
@@ -19,18 +19,19 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "將 2–3 滴點於患處，輕輕按摩；或點在鼻孔前，深呼吸數次。用於舒緩頭痛可按壓前額／兩側及頸背；傷風鼻塞可於鼻孔附近位置再深呼吸；亦可於胸前塗上並打圈按摩後慢慢深呼吸（跟屈臣氏／官網公開用法）。可重複至揮發。每日次數請跟包裝標籤。",
     cautions: "只供外用。使用時避免觸及眼睛及黏膜。兒童使用前應諮詢中醫師或醫生意見。勿讓兒童自取。置於陰涼乾燥處，避免陽光直射。皮膚敏感或不適請停用並諮詢醫生／藥劑師。詳情請參考盒內說明書。",
-    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 6ml：百佳\n• 12ml：萬寧、百佳、莎莎、松本清；多數渠道亦有（含 Soda Mall、先施 Sincere、卡萊美 Colourmix 等）\n• 26ml：萬寧、惠康、松本清\n• 屈臣氏：有 12ml／26ml 等公開頁（請致電確認）\n請致電門市確認有冇貨。",
-    priceNote: "屈臣氏公開參考（2026-10）：12ml 約 HK$29.50；26ml 約 HK$49.90。以當日價簽為準。",
+    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 本款 12ml：萬寧、百佳、莎莎、松本清；多數渠道亦有（含 Soda Mall、先施 Sincere、卡萊美 Colourmix、屈臣氏等）\n• 同系列另有 6ml（百佳）／26ml（萬寧、惠康、松本清等）——請睇對應商品卡\n請致電門市確認有冇貨。",
+    priceNote: "萬寧／屈臣氏公開參考（2026-10）：約 HK$29.50。以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product1.php",
     watsonsUrl: "https://www.watsons.com.hk/zh-hk/%E8%8F%AF%E6%98%9F-%E7%B4%AB%E8%8A%B1%E6%B2%B9-12%E6%AF%AB%E5%8D%87/p/BP_224025",
+    manningsUrl: "https://www.mannings.com.hk/zh-hant/zihua-embrocation-12ml/p/882506",
     disclaimer: "註冊中成藥（搽劑）。參考用途，非醫療建議；唔講醫好／撃退／治療疾病。",
-    staffNotes: "中成藥註冊編號 HKC-16478。前線規格：6／12／26ml（公開註冊另有 3ml；渠道表以用戶為準）。\n【用戶提供渠道表 2026-10-24】萬寧 12／26；百佳 6／12；惠康 26；莎莎 12；松本清 12／26；12ml 大部份地方都有（含 Soda Mall、Sincere、Colourmix）。唔報舖數／庫存。\n來源另見：crazyone、屈臣氏 PDP。G6PD／孕婦：跟標籤問藥劑師。",
+    staffNotes: "中成藥註冊編號 HKC-16478。前線規格：6／12／26ml（公開註冊另有 3ml；渠道表以用戶為準）。\n【用戶提供渠道表 2026-10-24】萬寧 12／26；百佳 6／12；惠康 26；莎莎 12；松本清 12／26；12ml 大部份地方都有（含 Soda Mall、Sincere、Colourmix）。唔報舖數／庫存。\n來源另見：萬寧／屈臣氏公開 PDP、crazyone。G6PD／孕婦：跟標籤問藥劑師。\n圖片：萬寧公開產品圖（12ml SKU 882506；26ml SKU 478511）。6ml 暫無獨立公開產品圖，唔另開商品卡。",
     faqs: [
       {
         id: "about",
         icon: "ℹ️",
         label: "呢款係咩／有咩特點",
-        answer: "紫花油係香港註冊中成藥搽劑（HKC-16478），花香藥油方向。公開說明提到薰衣草精油配方，清新；主治方向包括頭暈頭痛、傷風鼻塞、舟車暈浪、痾嘔肚痛、蚊叮蟲咬。只供外用。常用規格：6／12／26 毫升。"
+        answer: "紫花油 12ml 係香港註冊中成藥搽劑（HKC-16478），花香藥油方向。公開說明提到薰衣草精油配方，清新；主治方向包括頭暈頭痛、傷風鼻塞、舟車暈浪、痾嘔肚痛、蚊叮蟲咬。只供外用。同系列另有 6ml／26ml。"
       },
       {
         id: "ingredients",
@@ -60,14 +61,81 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 6ml：百佳\n• 12ml：萬寧、百佳、莎莎、松本清；多數渠道亦有（含 Soda Mall、先施、卡萊美等）\n• 26ml：萬寧、惠康、松本清\n• 屈臣氏：有 12ml／26ml 等公開頁\n\n請致電門市確認有冇貨。"
+        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 本款 12ml：萬寧、百佳、莎莎、松本清；多數渠道亦有（含 Soda Mall、先施、卡萊美、屈臣氏等）\n• 同系列：6ml 百佳；26ml 萬寧／惠康／松本清等\n\n請致電門市確認有冇貨。"
       }
     ],
     consignment: false,
     watsonsShelf: true,
     registration: "HKC-16478",
-    volume: "6／12／26ml",
-    image: "assets/img/products/oil-classic.jpg"
+    volume: "12ml",
+    image: "assets/img/products/oil-classic-12.jpg"
+  },
+  {
+    id: "oil-classic-26",
+    nameZh: "紫花油 26ml",
+    nameEn: "ZIHUA Embrocation 26ml",
+    category: "花香藥油",
+    form: "搽劑／藥油（26ml）",
+    emoji: "🧴",
+    filterGroup: "藥油",
+    keyIngredients: ["薄荷腦", "桉油／桉葉油", "水楊酸甲酯（冬青油）"],
+    claims: [
+      "原創花香藥油概念；薰衣草精油配方方向（跟公開產品說明）",
+      "公開主治方向：頭暈頭痛、傷風鼻塞、舟車暈浪、痾嘔肚痛、蚊叮蟲咬",
+      "清新提神；只供外用"
+    ],
+    usage: "將 2–3 滴點於患處，輕輕按摩；或點在鼻孔前，深呼吸數次。用於舒緩頭痛可按壓前額／兩側及頸背；傷風鼻塞可於鼻孔附近位置再深呼吸；亦可於胸前塗上並打圈按摩後慢慢深呼吸（跟屈臣氏／官網公開用法）。可重複至揮發。每日次數請跟包裝標籤。",
+    cautions: "只供外用。使用時避免觸及眼睛及黏膜。兒童使用前應諮詢中醫師或醫生意見。勿讓兒童自取。置於陰涼乾燥處，避免陽光直射。皮膚敏感或不適請停用並諮詢醫生／藥劑師。詳情請參考盒內說明書。",
+    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 本款 26ml：萬寧、惠康、松本清；屈臣氏有公開頁（請致電確認）\n• 同系列另有 6ml（百佳）／12ml（萬寧、百佳、莎莎、松本清等多數渠道）——請睇對應商品卡\n請致電門市確認有冇貨。",
+    priceNote: "萬寧／屈臣氏公開參考（2026-10）：約 HK$49.90。以當日價簽為準。",
+    officialUrl: "https://crazyone.hk/projects/zihau/product1.php",
+    watsonsUrl: "https://www.watsons.com.hk/zh-hk/%E8%8F%AF%E6%98%9F-%E7%B4%AB%E8%8A%B1%E6%B2%B926ml/p/BP_235825",
+    manningsUrl: "https://www.mannings.com.hk/zh-hant/zihua-embrocation-26ml/p/478511",
+    disclaimer: "註冊中成藥（搽劑）。參考用途，非醫療建議；唔講醫好／撃退／治療疾病。",
+    staffNotes: "中成藥註冊編號 HKC-16478。前線規格：6／12／26ml（公開註冊另有 3ml；渠道表以用戶為準）。\n【用戶提供渠道表 2026-10-24】萬寧 12／26；百佳 6／12；惠康 26；莎莎 12；松本清 12／26；12ml 大部份地方都有（含 Soda Mall、Sincere、Colourmix）。唔報舖數／庫存。\n來源另見：萬寧／屈臣氏公開 PDP、crazyone。G6PD／孕婦：跟標籤問藥劑師。\n圖片：萬寧公開產品圖（12ml SKU 882506；26ml SKU 478511）。6ml 暫無獨立公開產品圖，唔另開商品卡。",
+    faqs: [
+      {
+        id: "about",
+        icon: "ℹ️",
+        label: "呢款係咩／有咩特點",
+        answer: "紫花油 26ml 係香港註冊中成藥搽劑（HKC-16478），花香藥油方向。公開說明提到薰衣草精油配方，清新；主治方向包括頭暈頭痛、傷風鼻塞、舟車暈浪、痾嘔肚痛、蚊叮蟲咬。只供外用。同系列另有 6ml／12ml。"
+      },
+      {
+        id: "ingredients",
+        icon: "🧪",
+        label: "主要成份",
+        answer: "主要成份：薄荷腦、桉油／桉葉油、水楊酸甲酯（冬青油）。完整成份表以實物包裝／說明書為準。"
+      },
+      {
+        id: "usage",
+        icon: "📋",
+        label: "點用／用法",
+        answer: "將 2–3 滴點於患處輕輕按摩；或點在鼻孔前深呼吸數次。頭痛可按前額／兩側及頸背；鼻塞可於鼻孔附近；亦可胸前打圈按摩後深呼吸。只供外用；詳情跟包裝。"
+      },
+      {
+        id: "caution",
+        icon: "⚠️",
+        label: "邊啲人要小心／唔適合",
+        answer: "只供外用；避免眼睛及黏膜。兒童用前請諮詢中醫師或醫生。皮膚敏感或不適請停用。對水楊酸過敏者使用前諮詢醫生／藥劑師。孕婦、嬰兒：請跟包裝標籤（部分公開頁提示不宜）並問藥劑師。"
+      },
+      {
+        id: "g6pd",
+        icon: "🩸",
+        label: "蠶豆症（G6PD）",
+        answer: "公開產品頁未寫「蠶豆症適用／G6PD safe」。成份方向未列樟腦，但含水楊酸甲酯（冬青油）。蠶豆症或對相關成份敏感者：請睇包裝，並諮詢醫生／藥劑師，唔好自行判斷。"
+      },
+      {
+        id: "where",
+        icon: "🛒",
+        label: "邊度買",
+        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 本款 26ml：萬寧、惠康、松本清；屈臣氏有公開頁\n• 同系列：6ml 百佳；12ml 萬寧／百佳／莎莎／松本清等多數渠道\n\n請致電門市確認有冇貨。"
+      }
+    ],
+    consignment: false,
+    watsonsShelf: true,
+    registration: "HKC-16478",
+    volume: "26ml",
+    image: "assets/img/products/oil-classic-26.jpg"
   },
   {
     id: "drop-50",

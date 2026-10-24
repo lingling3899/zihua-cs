@@ -536,6 +536,14 @@
     if (p.officialUrl) {
       links += '<a href="' + escapeHtml(p.officialUrl) + '" target="_blank" rel="noopener">公開產品／系列頁</a>';
     }
+    if (p.manningsUrl) {
+      links += (links ? "　｜　" : "") +
+        '<a href="' + escapeHtml(p.manningsUrl) + '" target="_blank" rel="noopener">萬寧公開頁</a>';
+    }
+    if (p.watsonsUrl) {
+      links += (links ? "　｜　" : "") +
+        '<a href="' + escapeHtml(p.watsonsUrl) + '" target="_blank" rel="noopener">屈臣氏公開頁</a>';
+    }
     if (p.hktvSearchUrl) {
       links += (links ? "　｜　" : "") +
         '<a href="' + escapeHtml(p.hktvSearchUrl) + '" target="_blank" rel="noopener">HKTVmall 搜尋</a>';
