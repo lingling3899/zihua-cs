@@ -101,7 +101,7 @@
     if (isWatsonsShelf(p)) {
       return compact
         ? '<span class="pcat-badge watsons">屈臣氏</span>'
-        : '<span class="badge-watsons">屈臣氏貨</span>';
+        : '<span class="badge-watsons">屈臣氏</span>';
     }
     return compact ? '<span class="pcat-badge">其他</span>' : "";
   }
@@ -1203,7 +1203,7 @@
     if (isConsignStoreProduct(p)) {
       hint.classList.remove("hidden");
       hint.innerHTML =
-        "寄賣貨實體店：只顯示<strong>9 間有推廣員嘅屈臣氏</strong>（唔等於即時有貨或推廣員一定在場——請致電確認）。";
+        "寄賣貨實體店：只顯示<strong>有推廣員嘅屈臣氏電話</strong>（唔等於即時有貨或推廣員一定在場——請致電確認）。";
     } else if (p && p.consignment) {
       hint.classList.remove("hidden");
       hint.innerHTML =
@@ -1262,7 +1262,7 @@
       }
       return true;
     });
-    /* 推廣員篩選／寄賣貨鎖定時，電話簿重複紀錄按店碼去重，顯示 9 間 */
+    /* 推廣員篩選／寄賣貨鎖定時，電話簿重複紀錄按店碼去重（唔報舖數） */
     if (promoterOnly) {
       var seen = {};
       list = list.filter(function (s) {
@@ -1282,15 +1282,12 @@
     applyConsignStoreLock();
     var note = $("#directoryNote");
     if (note) {
-      var listAll = activeStoreList();
       var label = storeChannelLabel();
       note.textContent =
         (storeData.salesPointsNote || "電話簿非該產品一定有貨——請致電確認。") +
         " 而家顯示 " +
         label +
-        " 電話簿（共 " +
-        listAll.length +
-        " 間紀錄）。部分店有售／非全線——請致電確認有冇貨。";
+        " 電話簿。部分店有售／非全線——唔報舖數／庫存；請致電確認有冇貨。";
     }
 
     var base = activeStoreList();
@@ -1330,14 +1327,12 @@
     var list = filteredStores();
     var count = $("#storeCount");
     if (count) {
-      count.textContent =
-        "顯示 " +
-        list.length +
-        " 間" +
-        storeChannelLabel() +
-        (state.storePromoterOnly && state.storeChannel === "watsons" ? "（推廣員篩選）" : "") +
-        (state.storeRegion ? "（" + (REGION_LABEL[state.storeRegion] || "") + "）" : "") +
-        "｜電話簿 ≠ 庫存";
+      var bits = [storeChannelLabel() + "電話簿"];
+      if (state.storePromoterOnly && state.storeChannel === "watsons") bits.push("推廣員篩選");
+      if (state.storeRegion) bits.push(REGION_LABEL[state.storeRegion] || state.storeRegion);
+      bits.push("電話簿 ≠ 庫存");
+      bits.push("唔報舖數");
+      count.textContent = bits.join("｜");
     }
 
     var box = $("#storeList");
@@ -1420,7 +1415,7 @@
     var items = [
       "經典油 6／12／26ml：萬寧（12／26）、百佳（6／12）、惠康（26）、莎莎（12）、松本清（12／26）；12ml 多數渠道（含 Soda Mall／先施／卡萊美等）；屈臣氏有 12／26 公開頁——部分店有售／非全線",
       "防蚊噴 85ml：屈臣氏、先施、Citistore、松本清（部分店有售／非全線）",
-      "花香味 10ml（白木／淡花／玫瑰）：先施、AEON；玫瑰另屈臣氏上架——部分店有售／非全線",
+      "花香味 10ml（白木／淡花／玫瑰）：先施、AEON；玫瑰另見屈臣氏公開頁——部分店有售／非全線",
       "電話簿見下方（屈臣氏／萬寧）≠ 庫存"
     ];
     ul.innerHTML = items.map(function (t) { return "<li>" + escapeHtml(t) + "</li>"; }).join("");
