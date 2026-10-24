@@ -19,13 +19,13 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "將 2–3 滴點於患處，輕輕按摩；或點在鼻孔前，深呼吸數次。用於舒緩頭痛可按壓前額／兩側及頸背；傷風鼻塞可於鼻孔附近位置再深呼吸；亦可於胸前塗上並打圈按摩後慢慢深呼吸（跟屈臣氏／官網公開用法）。可重複至揮發。每日次數請跟包裝標籤。",
     cautions: "只供外用。使用時避免觸及眼睛及黏膜。兒童使用前應諮詢中醫師或醫生意見。勿讓兒童自取。置於陰涼乾燥處，避免陽光直射。皮膚敏感或不適請停用並諮詢醫生／藥劑師。詳情請參考盒內說明書。",
-    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 本款 12ml：萬寧、百佳、莎莎、松本清；多數渠道亦有（含 Soda Mall、先施 Sincere、卡萊美 Colourmix、屈臣氏等）\n• 同系列另有 6ml（百佳）／26ml（萬寧、惠康、松本清等）——請睇對應商品卡\n請致電門市確認有冇貨。",
-    priceNote: "萬寧／屈臣氏公開參考（2026-10）：約 HK$29.50。以當日價簽為準。",
+    whereToBuy: "部分店有售／非全線。可去「門店」睇電話簿（電話簿 ≠ 庫存）；請致電門市確認有冇貨。",
+    priceNote: "公開參考（2026-10）：約 HK$29.50。以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product1.php",
     watsonsUrl: "https://www.watsons.com.hk/zh-hk/%E8%8F%AF%E6%98%9F-%E7%B4%AB%E8%8A%B1%E6%B2%B9-12%E6%AF%AB%E5%8D%87/p/BP_224025",
     manningsUrl: "https://www.mannings.com.hk/zh-hant/zihua-embrocation-12ml/p/882506",
     disclaimer: "註冊中成藥（搽劑）。參考用途，非醫療建議；唔講醫好／撃退／治療疾病。",
-    staffNotes: "中成藥註冊編號 HKC-16478。前線規格：6／12／26ml（公開註冊另有 3ml；渠道表以用戶為準）。\n【用戶提供渠道表 2026-10-24】萬寧 12／26；百佳 6／12；惠康 26；莎莎 12；松本清 12／26；12ml 大部份地方都有（含 Soda Mall、Sincere、Colourmix）。唔報舖數／庫存。\n來源另見：萬寧／屈臣氏公開 PDP、crazyone。G6PD／孕婦：跟標籤問藥劑師。\n圖片：萬寧公開產品圖（12ml SKU 882506；26ml SKU 478511）。6ml 暫無獨立公開產品圖，唔另開商品卡。",
+    staffNotes: "中成藥註冊編號 HKC-16478。前線規格：6／12／26ml（公開註冊另有 3ml；渠道表以用戶為準）。\n【用戶提供渠道表 2026-10-24】萬寧 12／26；百佳 6／12；惠康 26；莎莎 12；松本清 12／26；12ml 大部份地方都有（含 Soda Mall、Sincere、Colourmix）。唔報舖數／庫存。\n來源另見：萬寧／屈臣氏公開 PDP、crazyone。G6PD／孕婦：跟標籤問藥劑師。\n圖片：萬寧公開產品圖（12ml SKU 882506；26ml SKU 478511）。6ml 暫無獨立公開產品圖，唔另開商品卡。\n公開參考價：12ml 約 $29.50；26ml 約 $49.90（2026-10；以當日價簽為準）。對客唔報邊間舖——導去門店電話簿。",
     faqs: [
       {
         id: "about",
@@ -61,7 +61,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 本款 12ml：萬寧、百佳、莎莎、松本清；多數渠道亦有（含 Soda Mall、先施、卡萊美、屈臣氏等）\n• 同系列：6ml 百佳；26ml 萬寧／惠康／松本清等\n\n請致電門市確認有冇貨。"
+        answer: "部分店有售／非全線。可去「門店」睇電話簿同地址；電話簿 ≠ 庫存，唔代表一定有貨——請致電確認。"
       }
     ],
     consignment: false,
@@ -86,13 +86,13 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "將 2–3 滴點於患處，輕輕按摩；或點在鼻孔前，深呼吸數次。用於舒緩頭痛可按壓前額／兩側及頸背；傷風鼻塞可於鼻孔附近位置再深呼吸；亦可於胸前塗上並打圈按摩後慢慢深呼吸（跟屈臣氏／官網公開用法）。可重複至揮發。每日次數請跟包裝標籤。",
     cautions: "只供外用。使用時避免觸及眼睛及黏膜。兒童使用前應諮詢中醫師或醫生意見。勿讓兒童自取。置於陰涼乾燥處，避免陽光直射。皮膚敏感或不適請停用並諮詢醫生／藥劑師。詳情請參考盒內說明書。",
-    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 本款 26ml：萬寧、惠康、松本清；屈臣氏有公開頁（請致電確認）\n• 同系列另有 6ml（百佳）／12ml（萬寧、百佳、莎莎、松本清等多數渠道）——請睇對應商品卡\n請致電門市確認有冇貨。",
-    priceNote: "萬寧／屈臣氏公開參考（2026-10）：約 HK$49.90。以當日價簽為準。",
+    whereToBuy: "部分店有售／非全線。可去「門店」睇電話簿（電話簿 ≠ 庫存）；請致電門市確認有冇貨。",
+    priceNote: "公開參考（2026-10）：約 HK$49.90。以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product1.php",
     watsonsUrl: "https://www.watsons.com.hk/zh-hk/%E8%8F%AF%E6%98%9F-%E7%B4%AB%E8%8A%B1%E6%B2%B926ml/p/BP_235825",
     manningsUrl: "https://www.mannings.com.hk/zh-hant/zihua-embrocation-26ml/p/478511",
     disclaimer: "註冊中成藥（搽劑）。參考用途，非醫療建議；唔講醫好／撃退／治療疾病。",
-    staffNotes: "中成藥註冊編號 HKC-16478。前線規格：6／12／26ml（公開註冊另有 3ml；渠道表以用戶為準）。\n【用戶提供渠道表 2026-10-24】萬寧 12／26；百佳 6／12；惠康 26；莎莎 12；松本清 12／26；12ml 大部份地方都有（含 Soda Mall、Sincere、Colourmix）。唔報舖數／庫存。\n來源另見：萬寧／屈臣氏公開 PDP、crazyone。G6PD／孕婦：跟標籤問藥劑師。\n圖片：萬寧公開產品圖（12ml SKU 882506；26ml SKU 478511）。6ml 暫無獨立公開產品圖，唔另開商品卡。",
+    staffNotes: "中成藥註冊編號 HKC-16478。前線規格：6／12／26ml（公開註冊另有 3ml；渠道表以用戶為準）。\n【用戶提供渠道表 2026-10-24】萬寧 12／26；百佳 6／12；惠康 26；莎莎 12；松本清 12／26；12ml 大部份地方都有（含 Soda Mall、Sincere、Colourmix）。唔報舖數／庫存。\n來源另見：萬寧／屈臣氏公開 PDP、crazyone。G6PD／孕婦：跟標籤問藥劑師。\n圖片：萬寧公開產品圖（12ml SKU 882506；26ml SKU 478511）。6ml 暫無獨立公開產品圖，唔另開商品卡。\n公開參考價：12ml 約 $29.50；26ml 約 $49.90（2026-10；以當日價簽為準）。對客唔報邊間舖——導去門店電話簿。",
     faqs: [
       {
         id: "about",
@@ -128,7 +128,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 本款 26ml：萬寧、惠康、松本清；屈臣氏有公開頁\n• 同系列：6ml 百佳；12ml 萬寧／百佳／莎莎／松本清等多數渠道\n\n請致電門市確認有冇貨。"
+        answer: "部分店有售／非全線。可去「門店」睇電話簿同地址；電話簿 ≠ 庫存，唔代表一定有貨——請致電確認。"
       }
     ],
     consignment: false,
@@ -154,7 +154,7 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "只供外用。需要時每次搽適量於患處，每日 3–4 次。兒童使用本產品時，應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢中醫師或醫生。皮膚敏感或不適請停用並諮詢醫生／藥劑師。詳情以包裝說明書為準。",
-    whereToBuy: "銷售點（部分店有售、非全線）：各大藥房／藥妝、品牌公開渠道。請致電確認有冇貨。",
+    whereToBuy: "部分店有售／非全線。可去「門店」睇電話簿（電話簿 ≠ 庫存）；請致電門市確認有冇貨。",
     priceNote: "以當日門市／網店價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product1.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
@@ -194,7 +194,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：各大藥房／藥妝、品牌公開渠道。電話簿唔代表一定有貨——請致電確認。"
+        answer: "部分店有售／非全線。可去「門店」睇電話簿同地址；電話簿 ≠ 庫存，唔代表一定有貨——請致電確認。"
       }
     ],
     consignment: false,
@@ -219,7 +219,7 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "需要時每次搽適量於患處，每日 3–4 次。兒童使用前應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢醫生。皮膚敏感或不適請停用。詳情以包裝為準。",
-    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml 花香味系列——先施（Sincere）、AEON 有售；各大藥房／藥妝及品牌渠道亦可能有。請致電門市確認有冇貨。",
+    whereToBuy: "部分店有售／非全線。可去「門店」睇電話簿（電話簿 ≠ 庫存）；請致電門市確認有冇貨。",
     priceNote: "以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product2.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
@@ -259,7 +259,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml 花香味——先施（Sincere）、AEON；各大藥房／藥妝及品牌渠道亦可能有。請致電確認有冇貨。"
+        answer: "部分店有售／非全線。可去「門店」睇電話簿同地址；電話簿 ≠ 庫存，唔代表一定有貨——請致電確認。"
       }
     ],
     consignment: false,
@@ -284,7 +284,7 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "需要時每次搽適量於患處，每日 3–4 次。兒童使用前應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢醫生。皮膚敏感或不適請停用。詳情以包裝為準。",
-    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml 花香味系列——先施（Sincere）、AEON 有售；各大藥房／藥妝及品牌渠道亦可能有。請致電門市確認有冇貨。",
+    whereToBuy: "部分店有售／非全線。可去「門店」睇電話簿（電話簿 ≠ 庫存）；請致電門市確認有冇貨。",
     priceNote: "以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product2.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
@@ -324,7 +324,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml 花香味——先施（Sincere）、AEON；各大藥房／藥妝及品牌渠道亦可能有。請致電確認有冇貨。"
+        answer: "部分店有售／非全線。可去「門店」睇電話簿同地址；電話簿 ≠ 庫存，唔代表一定有貨——請致電確認。"
       }
     ],
     consignment: false,
@@ -349,7 +349,7 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "需要時每次搽適量於患處，每日 3–4 次。兒童使用前應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢醫生。皮膚敏感或不適請停用。詳情以包裝為準。",
-    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml——先施（Sincere）、AEON；屈臣氏公開頁有列（玫瑰花香／芳香紅薇）。各大藥房／藥妝及品牌渠道亦可能有。請致電門市確認有冇貨。",
+    whereToBuy: "部分店有售／非全線。可去「門店」睇電話簿（電話簿 ≠ 庫存）；請致電門市確認有冇貨。",
     priceNote: "以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product2.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
@@ -389,7 +389,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml——先施、AEON；屈臣氏公開頁有列（玫瑰花香）。各大藥房／藥妝及品牌渠道亦可能有。請致電確認有冇貨。"
+        answer: "部分店有售／非全線。可去「門店」睇電話簿同地址；電話簿 ≠ 庫存，唔代表一定有貨——請致電確認。"
       }
     ],
     consignment: false,
@@ -414,12 +414,12 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "沾取適量於所需位置上；如有需要可每天輕輕塗搽數次。詳情以包裝標籤為準。",
     cautions: "外用護理產品。皮膚敏感或不適請停用。避免眼睛及黏膜。兒童使用請跟標籤；如有疑問請諮詢醫生／藥劑師。",
-    whereToBuy: "銷售點（部分店有售、非全線）：屈臣氏（有公開品牌頁）、品牌公開渠道。請致電確認。",
-    priceNote: "屈臣氏公開參考（2026-10）：約 HK$61（RRP 約 $68）。以當日價簽為準。",
+    whereToBuy: "部分店有售／非全線。可去「門店」睇電話簿（電話簿 ≠ 庫存）；請致電門市確認有冇貨。",
+    priceNote: "公開參考（2026-10）：約 HK$61（RRP 約 $68）。以當日價簽為準。",
     officialUrl: "https://www.crazyone.hk/projects/zihau/product4.php",
     watsonsUrl: "https://www.watsons.com.hk/zh-hk/all-brands/list/126009/zihua",
     disclaimer: "護膚／外用舒緩方向；唔講醫好／治療疾病。請跟標籤。",
-    staffNotes: "有效成份公開：Citrepel®75、乳木果脂、卵磷脂、甘油、維他命E、薰衣草油、純水。規格 50g。\n來源：crazyone product4、屈臣氏 ZIHUA 品牌頁。\n唔好話「治療濕疹／醫好皮膚病」。G6PD：公開頁未寫；噴霧類另有「不含樟腦」表述——本軟膏請跟標籤問藥劑師。",
+    staffNotes: "有效成份公開：Citrepel®75、乳木果脂、卵磷脂、甘油、維他命E、薰衣草油、純水。規格 50g。\n來源：crazyone product4、屈臣氏 ZIHUA 品牌頁。\n唔好話「治療濕疹／醫好皮膚病」。\n對客唔報邊間舖——導去門店電話簿；渠道表只職員見。G6PD：公開頁未寫；噴霧類另有「不含樟腦」表述——本軟膏請跟標籤問藥劑師。",
     faqs: [
       {
         id: "about",
@@ -455,7 +455,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：\n• 屈臣氏（ZIHUA 品牌頁有列出）\n• 品牌公開渠道\n\n請致電確認有冇貨。"
+        answer: "部分店有售／非全線。可去「門店」睇電話簿同地址；電話簿 ≠ 庫存，唔代表一定有貨——請致電確認。"
       }
     ],
     consignment: false,
@@ -480,12 +480,12 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "使用前先搖勻。將噴霧距離皮膚或衣物約 10–15 厘米，平均噴射。每隔 3–4 小時噴 1 次。詳情以包裝為準。",
     cautions: "外用。避免眼睛及黏膜。幼兒及成人使用請跟包裝標籤；如有疑問請諮詢醫生／藥劑師。唔好直接噴寵物。",
-    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：屈臣氏、先施（Sincere）、Citistore、松本清。請致電門市確認有冇貨。",
-    priceNote: "屈臣氏公開參考（2026-10）：驅蚊舒緩噴霧 85ml 約 HK$46.50（RRP 約 $62）。以當日價簽／實物包裝為準。",
+    whereToBuy: "部分店有售／非全線。可去「門店」睇電話簿（電話簿 ≠ 庫存）；請致電門市確認有冇貨。",
+    priceNote: "公開參考（2026-10）：驅蚊舒緩噴霧 85ml 約 HK$46.50（RRP 約 $62）。以當日價簽／實物包裝為準。",
     officialUrl: "https://www.crazyone.hk/projects/zihau/product4.php",
     watsonsUrl: "https://www.watsons.com.hk/zh-hk/all-brands/list/126009/zihua",
     disclaimer: "驅蚊／舒緩外用；唔保證預防登革熱等疾病。請持續採取防蚊措施。",
-    staffNotes: "前線規格：紫花防蚊噴 85ml。\n【用戶提供渠道表 2026-10-24】屈臣氏、Sincere、Citistore、松本清。唔報舖數／庫存。\n公開成份方向：Citrepel®75（PMD）、不添加 DEET／樟腦。品牌舊頁或寫 50ml——對客以 85ml 實物標籤為準。唔好講撃退登革熱。",
+    staffNotes: "前線規格：紫花防蚊噴 85ml。\n【用戶提供渠道表 2026-10-24】屈臣氏、Sincere、Citistore、松本清。唔報舖數／庫存。\n公開成份方向：Citrepel®75（PMD）、不添加 DEET／樟腦。品牌舊頁或寫 50ml——對客以 85ml 實物標籤為準。唔好講撃退登革熱。\n對客唔報邊間舖——導去門店電話簿；渠道表只職員見。",
     faqs: [
       {
         id: "about",
@@ -527,7 +527,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：\n• 屈臣氏\n• 先施（Sincere）\n• Citistore\n• 松本清\n\n請致電門市確認有冇貨。"
+        answer: "部分店有售／非全線。可去「門店」睇電話簿同地址；電話簿 ≠ 庫存，唔代表一定有貨——請致電確認。"
       }
     ],
     consignment: false,

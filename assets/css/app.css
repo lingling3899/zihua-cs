@@ -733,7 +733,12 @@ select:focus, input:focus, textarea:focus {
   color: var(--teal-dark);
 }
 .product-catalog-card .pcat-badge.consign { background: #fff7ed; color: var(--warn); }
-.product-catalog-card .pcat-badge.watsons { background: #ecfdf5; color: var(--green); }
+.product-catalog-card .pcat-badge.neutral {
+  background: #f0f0f0;
+  color: #555;
+  border: 1px solid #ddd;
+}
+.pcat-badge.watsons { background: #ecfdf5; color: var(--green); }
 
 .staff-image-form {
   margin-top: 10px;

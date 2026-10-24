@@ -93,17 +93,8 @@
   }
 
   function channelBadgeHtml(p, compact) {
-    if (isPureConsign(p)) {
-      return compact
-        ? '<span class="pcat-badge consign">寄賣</span>'
-        : '<span class="badge-consign">寄賣／非上架</span>';
-    }
-    if (isWatsonsShelf(p)) {
-      return compact
-        ? '<span class="pcat-badge watsons">屈臣氏</span>'
-        : '<span class="badge-watsons">屈臣氏</span>';
-    }
-    return compact ? '<span class="pcat-badge">其他</span>' : "";
+    /* 對客產品卡唔標邊間舖（屈臣氏／其他／寄賣）——導去「門店」 */
+    return "";
   }
 
 
@@ -389,9 +380,7 @@
   }
 
   function productChannelTag(p) {
-    if (isWatsonsShelf(p)) return " 〔屈臣氏〕";
-    if (isPureConsign(p)) return " 〔寄賣〕";
-    if (p && p.consignment) return " 〔寄賣〕";
+    /* 下拉唔標渠道舖名 */
     return "";
   }
 
@@ -536,14 +525,7 @@
     if (p.officialUrl) {
       links += '<a href="' + escapeHtml(p.officialUrl) + '" target="_blank" rel="noopener">公開產品／系列頁</a>';
     }
-    if (p.manningsUrl) {
-      links += (links ? "　｜　" : "") +
-        '<a href="' + escapeHtml(p.manningsUrl) + '" target="_blank" rel="noopener">萬寧公開頁</a>';
-    }
-    if (p.watsonsUrl) {
-      links += (links ? "　｜　" : "") +
-        '<a href="' + escapeHtml(p.watsonsUrl) + '" target="_blank" rel="noopener">屈臣氏公開頁</a>';
-    }
+    /* 對客唔顯示萬寧／屈臣氏 PDP 連結（唔寫明邊間舖） */
     if (p.hktvSearchUrl) {
       links += (links ? "　｜　" : "") +
         '<a href="' + escapeHtml(p.hktvSearchUrl) + '" target="_blank" rel="noopener">HKTVmall 搜尋</a>';
@@ -676,7 +658,9 @@
         escapeHtml(p.id) + '" aria-pressed="' + (p.id === selected ? "true" : "false") + '">' +
         thumb +
         '<span class="pcat-name">' + escapeHtml(p.nameZh) + "</span>" +
-        channelBadgeHtml(p, true) +
+        (p.filterGroup
+          ? '<span class="pcat-badge neutral">' + escapeHtml(p.filterGroup) + "</span>"
+          : "") +
         "</button>"
       );
     }).join("");
@@ -1073,7 +1057,7 @@
     if (faqId === "where") {
       html +=
         '<div class="meta">' +
-        '<button type="button" class="chip" id="answerGoStores">去門店電話簿 →</button>' +
+        '<button type="button" class="chip" id="answerGoStores">去「門店」睇電話簿 →</button>' +
         (storeData.officialSite
           ? '<a class="btn-link" href="' +
             escapeHtml(storeData.officialSite) +
