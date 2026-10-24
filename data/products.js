@@ -151,11 +151,11 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "需要時每次搽適量於患處，每日 3–4 次。兒童使用前應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢醫生。皮膚敏感或不適請停用。詳情以包裝為準。",
-    whereToBuy: "銷售點（部分店有售、非全線）：花香味系列（白木／淡花／玫瑰）見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。",
+    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml 花香味系列——先施（Sincere）、AEON 有售；各大藥房／藥妝及品牌渠道亦可能有。請致電門市確認有冇貨。",
     priceNote: "以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product2.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
-    staffNotes: "註冊編號 HKC-18131（白木）。系列：淡花 HKC-18132、玫瑰／紅薇 HKC-18133。規格各 10ml。\n用戶口語：白木／淡花／玫瑰花香味。\n【用戶提供渠道表 2026-10-24】有列花香味 3 款存在；未逐渠道列花香味——對客請致電確認。來源：crazyone product2。",
+    staffNotes: "註冊編號 HKC-18131（白木）。規格 10ml。\n【用戶提供渠道表 2026-10-24】花香味 10ml：先施、AEON 有買；玫瑰另見屈臣氏上架。唔報舖數／庫存。來源：crazyone product2。",
     faqs: [
       {
         id: "about",
@@ -191,7 +191,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：花香味系列見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。"
+        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml 花香味——先施（Sincere）、AEON；各大藥房／藥妝及品牌渠道亦可能有。請致電確認有冇貨。"
       }
     ],
     consignment: false,
@@ -216,11 +216,11 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "需要時每次搽適量於患處，每日 3–4 次。兒童使用前應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢醫生。皮膚敏感或不適請停用。詳情以包裝為準。",
-    whereToBuy: "銷售點（部分店有售、非全線）：花香味系列（白木／淡花／玫瑰）見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。",
+    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml 花香味系列——先施（Sincere）、AEON 有售；各大藥房／藥妝及品牌渠道亦可能有。請致電門市確認有冇貨。",
     priceNote: "以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product2.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
-    staffNotes: "註冊編號 HKC-18132（淡花／淡花甜香）。\n【用戶提供渠道表 2026-10-24】花香味 3 款之一；未逐渠道列——請致電確認。來源：crazyone product2。",
+    staffNotes: "註冊編號 HKC-18132（淡花／淡花甜香）。規格 10ml。\n【用戶提供渠道表 2026-10-24】花香味 10ml：先施、AEON 有買。唔報舖數／庫存。來源：crazyone product2。",
     faqs: [
       {
         id: "about",
@@ -256,7 +256,7 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：花香味系列見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。"
+        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml 花香味——先施（Sincere）、AEON；各大藥房／藥妝及品牌渠道亦可能有。請致電確認有冇貨。"
       }
     ],
     consignment: false,
@@ -281,11 +281,11 @@ window.ZIHUA_PRODUCTS = [
     ],
     usage: "需要時每次搽適量於患處，每日 3–4 次。兒童使用前應諮詢中醫師或醫生意見。使用時避免觸及眼睛及黏膜。",
     cautions: "只供外用。避免眼睛及黏膜。兒童用前諮詢醫生。皮膚敏感或不適請停用。詳情以包裝為準。",
-    whereToBuy: "銷售點（部分店有售、非全線）：花香味系列（白木／淡花／玫瑰）見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。",
+    whereToBuy: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml——先施（Sincere）、AEON；屈臣氏有上架（玫瑰花香／芳香紅薇）。各大藥房／藥妝及品牌渠道亦可能有。請致電門市確認有冇貨。",
     priceNote: "以當日價簽為準。",
     officialUrl: "https://crazyone.hk/projects/zihau/product2.php",
     disclaimer: "註冊中成藥。參考用途，非醫療建議。",
-    staffNotes: "註冊編號 HKC-18133（玫瑰花香／芳香紅薇）。\n【用戶提供渠道表 2026-10-24】花香味 3 款之一；未逐渠道列——請致電確認。來源：crazyone product2。",
+    staffNotes: "註冊編號 HKC-18133（玫瑰花香／芳香紅薇）。規格 10ml。\n【用戶提供渠道表 2026-10-24】花香味 10ml：先施、AEON 有買；玫瑰屈臣氏有上架。唔報舖數／庫存。來源：crazyone product2。",
     faqs: [
       {
         id: "about",
@@ -321,11 +321,11 @@ window.ZIHUA_PRODUCTS = [
         id: "where",
         icon: "🛒",
         label: "邊度買",
-        answer: "銷售點（部分店有售、非全線）：花香味系列見各大藥房／藥妝及品牌渠道；渠道表未逐款列舖——請致電確認有冇貨。"
+        answer: "銷售點（部分店有售、非全線；電話簿 ≠ 庫存）：10ml——先施、AEON；屈臣氏有上架（玫瑰花香）。各大藥房／藥妝及品牌渠道亦可能有。請致電確認有冇貨。"
       }
     ],
     consignment: false,
-    watsonsShelf: false,
+    watsonsShelf: true,
     registration: "HKC-18133",
     volume: "10ml",
     image: "assets/img/products/floral-line.png"
