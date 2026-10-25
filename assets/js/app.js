@@ -105,6 +105,58 @@
     );
   }
 
+  function watsonsStockGuestLine(p) {
+    if (!p || typeof p.watsonsInStockStores !== "number" || !p.watsonsInStockStores) return "";
+    var asOf = p.watsonsInStockAsOf || "";
+    return (
+      "屈臣氏約 " +
+      p.watsonsInStockStores +
+      " 間店舖有貨（" +
+      (asOf ? asOf + " 查詢；" : "") +
+      "屈臣氏庫存查詢覆蓋約177間，非電話簿全部288間；以當日網頁為準）"
+    );
+  }
+
+  function retailerStockGuestHtml(p) {
+    var parts = [];
+    var m = manningsStockGuestLine(p);
+    var w = watsonsStockGuestLine(p);
+    if (m) {
+      parts.push(
+        '<p class="pc-meta mannings-stock-line" style="margin-top:6px"><strong>' +
+          escapeHtml(m) +
+          "</strong></p>"
+      );
+    }
+    if (w) {
+      parts.push(
+        '<p class="pc-meta watsons-stock-line" style="margin-top:6px"><strong>' +
+          escapeHtml(w) +
+          "</strong></p>"
+      );
+    }
+    return parts.join("");
+  }
+
+  function retailerStockCatalogHtml(p) {
+    var bits = [];
+    if (manningsStockGuestLine(p)) {
+      bits.push(
+        '<span class="pcat-stock">' +
+          escapeHtml("萬寧約 " + p.manningsInStockStores + " 間有貨") +
+          "</span>"
+      );
+    }
+    if (watsonsStockGuestLine(p)) {
+      bits.push(
+        '<span class="pcat-stock pcat-stock-watsons">' +
+          escapeHtml("屈臣氏約 " + p.watsonsInStockStores + " 間有貨") +
+          "</span>"
+      );
+    }
+    return bits.join("");
+  }
+
   function channelBadgeHtml(p, compact) {
     /* 對客產品卡唔標邊間舖（屈臣氏／其他／寄賣）——導去「門店」 */
     return "";
@@ -559,11 +611,7 @@
       (p.disclaimer
         ? '<p class="pc-meta" style="margin-top:6px">' + escapeHtml(forGuest(p.disclaimer)) + "</p>"
         : "") +
-      (manningsStockGuestLine(p)
-        ? '<p class="pc-meta mannings-stock-line" style="margin-top:6px"><strong>' +
-          escapeHtml(manningsStockGuestLine(p)) +
-          "</strong></p>"
-        : "") +
+      retailerStockGuestHtml(p) +
       (links ? '<p class="pc-meta" style="margin-top:6px">' + links + "</p>" : "") +
       "</div></div>";
 
@@ -679,9 +727,7 @@
         (p.filterGroup
           ? '<span class="pcat-badge neutral">' + escapeHtml(p.filterGroup) + "</span>"
           : "") +
-        (manningsStockGuestLine(p)
-          ? '<span class="pcat-stock">' + escapeHtml("萬寧約 " + p.manningsInStockStores + " 間有貨") + "</span>"
-          : "") +
+        retailerStockCatalogHtml(p) +
         "</button>"
       );
     }).join("");
@@ -1076,9 +1122,13 @@
       nl2br(forGuest(f.answer));
 
     if (faqId === "where") {
-      var stockLine = manningsStockGuestLine(p);
-      if (stockLine && html.indexOf("萬寧約") === -1) {
-        html += "<br><br><strong>" + escapeHtml(stockLine) + "</strong>";
+      var mLine = manningsStockGuestLine(p);
+      var wLine = watsonsStockGuestLine(p);
+      if (mLine && html.indexOf("萬寧約") === -1) {
+        html += "<br><br><strong>" + escapeHtml(mLine) + "</strong>";
+      }
+      if (wLine && html.indexOf("屈臣氏約") === -1) {
+        html += "<br><br><strong>" + escapeHtml(wLine) + "</strong>";
       }
       html +=
         '<div class="meta">' +
@@ -1426,12 +1476,12 @@
     var ul = $("#salesPointsList");
     if (!ul) return;
     var items = [
-      "經典油 12ml：萬寧約 247 間店舖有貨（2026-10-24 查詢；非全線；以當日萬寧網頁為準）",
-      "經典油 26ml：萬寧約 100 間店舖有貨（2026-10-24 查詢；非全線；以當日萬寧網頁為準）",
+      "經典油 12ml：萬寧約 247 間（2026-10-24）；屈臣氏約 168 間（2026-10-25；庫存查詢覆蓋約177間，非電話簿288間）",
+      "經典油 26ml：萬寧約 100 間（2026-10-24）；屈臣氏約 47 間（2026-10-25；庫存查詢覆蓋約177間，非電話簿288間）",
       "經典油其他渠道／6ml：部分店有售／非全線——可去下方電話簿致電確認（電話簿間數 ≠ 有貨舖數）",
-      "防蚊噴 85ml：萬寧約 77 間店舖有貨（2026-10-24 查詢；非全線；以當日萬寧網頁為準）",
+      "防蚊噴 85ml：萬寧約 77 間（2026-10-24）；屈臣氏約 57 間（2026-10-25；庫存查詢覆蓋約177間，非電話簿288間）",
       "花香味 10ml：部分店有售／非全線——請致電確認",
-      "下方電話簿：萬寧／屈臣氏分店電話（電話簿 ≠ 有貨舖數）"
+      "下方電話簿：萬寧／屈臣氏分店電話（電話簿 ≠ 有貨舖數；屈臣氏庫存查詢只覆蓋約177間）"
     ];
     ul.innerHTML = items.map(function (t) { return "<li>" + escapeHtml(t) + "</li>"; }).join("");
   }

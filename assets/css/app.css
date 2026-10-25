@@ -825,3 +825,10 @@ select:focus, input:focus, textarea:focus {
 .mannings-stock-line {
   color: #5a4500;
 }
+.watsons-stock-line {
+  color: #0b5a4a;
+}
+.pcat-stock-watsons {
+  color: #0b5a4a;
+  background: #e8f8f4;
+}
