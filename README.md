@@ -29,6 +29,12 @@ python3 -m http.server 8080
 
 屈臣氏、萬寧電話簿整理自公開分店目錄（同叮叮／古寶結構）。**電話簿 ≠ 庫存**；部分店有售／非全線；門店頁可顯示**電話簿間數**（唔講即時有存貨／SKU 庫存）。
 
+### 庫存快照（`data/stock-snapshot.js`）
+
+揀產品後撳「屈臣氏／萬寧」，若該款有可用快照（`asOf`／渠道 `*AsOf` + `storeCount` + `stores[]`），名單預設顯示**有貨快照**（可切「電話簿全部」）。快照非即時；請致電確認。屈臣氏庫存查詢只覆蓋約 177 間——**唔好**將未列出嘅舖標「沒有此產品」。
+
+填入／更新：將 scrape JSON（例如 `data/raw-mannings-stock-YYYYMMDD.json`）merge 入 `window.ZIHUA_STOCK.products[productId].mannings|watsons`，用電話簿 fuzzy match（去掉「萬寧 · 」「屈臣氏 · 」前綴）補 `tel`；設好 `manningsAsOf`／`watsonsAsOf`（或 `asOf`）。預期產品鍵：`oil-classic-12`、`oil-classic-26`、`spray-lavender`。
+
 ## 法律／宣稱
 
 - 只用公開頁同用戶提供內容；**無**爬取 HKTVmall

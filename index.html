@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="description" content="紫花油 ZIHUA 客服速查：產品問答、成份用法、邊度買、門店電話簿。庫存請致電確認；參考用途非醫療建議。" />
   <title>紫花油 · 客服速查</title>
-  <link rel="stylesheet" href="assets/css/app.css?v=20261025a" />
+  <link rel="stylesheet" href="assets/css/app.css?v=20261025b" />
 </head>
 <body>
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand">
-        <img class="brand-logo" src="assets/img/zihua-logo.png?v=20261025a" width="220" height="80" alt="紫花油 ZIHUA Embrocation" />
+        <img class="brand-logo" src="assets/img/zihua-logo.png?v=20261025b" width="220" height="80" alt="紫花油 ZIHUA Embrocation" />
         <div class="brand-text">
           <h1>紫花油 · 客服速查</h1>
           <p>產品問答　｜　門店　｜　說明</p>
@@ -160,6 +160,10 @@
             <button type="button" class="region-chip active" data-store-channel="watsons" aria-pressed="true">屈臣氏</button>
             <button type="button" class="region-chip" data-store-channel="mannings" aria-pressed="false">萬寧</button>
           </div>
+          <div class="region-chips hidden" id="stockModeChips" role="group" aria-label="名單模式" hidden>
+            <button type="button" class="region-chip active" data-stock-mode="snapshot" aria-pressed="true">只顯示有貨快照</button>
+            <button type="button" class="region-chip" data-stock-mode="directory" aria-pressed="false">電話簿全部</button>
+          </div>
           <p class="field region-label">分區（香港／九龍／新界）</p>
           <div class="region-chips" id="regionChips">
             <button type="button" class="region-chip active" data-region="" aria-pressed="true">全部</button>
@@ -288,10 +292,11 @@
     </footer>
   </main>
 
-  <script src="data/products.js?v=20261025a"></script>
-  <script src="data/stores.js?v=20261025a"></script>
-  <script src="assets/js/admin-auth.js?v=20261025a"></script>
-  <script src="assets/js/cms.js?v=20261025a"></script>
-  <script src="assets/js/app.js?v=20261025a"></script>
+  <script src="data/products.js?v=20261025b"></script>
+  <script src="data/stores.js?v=20261025b"></script>
+  <script src="data/stock-snapshot.js?v=20261025b"></script>
+  <script src="assets/js/admin-auth.js?v=20261025b"></script>
+  <script src="assets/js/cms.js?v=20261025b"></script>
+  <script src="assets/js/app.js?v=20261025b"></script>
 </body>
 </html>
