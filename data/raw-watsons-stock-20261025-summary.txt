@@ -1,0 +1,17 @@
+Watsons HK 查看門市庫存  as of 2026-10-25
+Source: watsons.com.hk 查看門市庫存
+Coverage: checker lists about 177 stores, not the full phone book of 288. Only stores shown with in-stock status are listed.
+In-stock includes green 有存貨 and low-stock 就嚟賣晒，快嚟買！ (still available). Stores not shown are omitted, not marked 沒有此產品.
+Region is taken only when the address is prefixed with 香港 / 九龍 / 新界 / 西九 / 澳門. District is the area label after the last comma.
+
+oil-classic-12  BP_224025  storeCount=168
+  有存貨: 144    就嚟賣晒，快嚟買！: 24
+  region: 新界 70, 九龍 46, 香港 27, （地址未標地區） 19, 澳門 5, 西九 1
+
+oil-classic-26  BP_235825  storeCount=47
+  有存貨: 28    就嚟賣晒，快嚟買！: 19
+  region: 九龍 19, 新界 15, 香港 8, （地址未標地區） 4, 西九 1
+
+spray-lavender  BP_816067  storeCount=57
+  有存貨: 23    就嚟賣晒，快嚟買！: 34
+  region: 九龍 18, 新界 17, 香港 11, 澳門 9, （地址未標地區） 2
